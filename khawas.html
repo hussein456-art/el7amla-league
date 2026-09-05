@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>الخواص - El7amla Fantasy League</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo"><span class="logo-ar">الحمله</span></a>
+      <div class="nav-links">
+        <a href="index.html">🏠 الرئيسية</a>
+        <a href="teams.html">👥 الفرق</a>
+        <a href="standings.html">📊 الترتيب</a>
+        <a href="fixtures.html">📅 المباريات</a>
+        <a href="khawas.html" class="active">✨ الخواص</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="main-content">
+    <h1 style="font-size:1.5rem;font-weight:900;margin-bottom:20px;text-align:center;">الخواص</h1>
+
+    <!-- فورم الدخول -->
+    <div class="khawas-box" id="login-box">
+      <label>فريقك</label>
+      <select id="team-select"></select>
+
+      <label>الباسورد</label>
+      <input type="password" id="password-input" placeholder="••••••••" />
+
+      <button class="khawas-btn" onclick="handleLogin()">دخول</button>
+      <div id="login-error" class="khawas-error"></div>
+    </div>
+
+    <!-- شاشة الفريق بعد الدخول -->
+    <div class="khawas-box" id="status-box" style="display:none;">
+      <h3 id="team-name-display" style="font-weight:900;margin-bottom:10px;"></h3>
+      <div id="chips-usage"></div>
+
+      <label>نوع الخاصية</label>
+      <select id="chip-type-select" onchange="renderActivationFields()">
+        <option value="bonus3">bonus3</option>
+        <option value="double_player">double_player</option>
+        <option value="one_v_one">one_v_one</option>
+      </select>
+
+      <label>رقم الجولة (GW)</label>
+      <input type="number" id="gw-input" min="1" max="38" />
+
+      <div id="extra-fields"></div>
+
+      <button class="khawas-btn" onclick="handleActivate()">تفعيل</button>
+      <div id="activate-msg"></div>
+    </div>
+  </main>
+
+  <script src="js/shared.js"></script>
+  <script>
+    let currentToken = null;
+    let currentTeam = null;
+
+    async function populateTeamSelect() {
+      const teamsConfig = await getTeamsConfig();
+      const select = document.getElementById('team-select');
+      select.innerHTML = Object.keys(teamsConfig)
+        .map(name => `<option value="${escapeHtml(name)}">${escapeHtml(name)}</option>`)
+        .join('');
+    }
+    populateTeamSelect();
+
+    async function handleLogin() {
+      const team = document.getElementById('team-select').value;
+      const password = document.getElementById('password-input').value;
+      const errorBox = document.getElementById('login-error');
+      errorBox.textContent = '';
+
+      const result = await khawasLogin(team, password);
+      if (result.error) {
+        errorBox.textContent = result.error;
+        return;
+      }
+      currentToken = result.token;
+      currentTeam = result.team;
+      document.getElementById('login-box').style.display = 'none';
+      document.getElementById('status-box').style.display = 'block';
+      document.getElementById('team-name-display').textContent = currentTeam;
+      loadStatus();
+    }
+
+    async function loadStatus() {
+      const result = await khawasStatus(currentToken);
+      if (result.error) return;
+      const usageBox = document.getElementById('chips-usage');
+      usageBox.innerHTML = Object.entries(result.usage).map(([type, u]) => {
+        const full = u.used >= u.limit;
+        return `<div class="chip-row ${full ? 'chip-used-up' : ''}">
+          <span>${type}</span><span>${u.used} / ${u.limit}</span>
+        </div>`;
+      }).join('');
+    }
+
+    function renderActivationFields() {
+      const type = document.getElementById('chip-type-select').value;
+      const box = document.getElementById('extra-fields');
+      if (type === 'double_player') {
+        box.innerHTML = `
+          <label>اللاعب اللي هيتضاعف</label>
+          <input type="text" id="doubledPlayer" placeholder="اسم اللاعب">
+          <label>اللاعب اللي هيتصفر</label>
+          <input type="text" id="zeroedPlayer" placeholder="اسم اللاعب">`;
+      } else if (type === 'one_v_one') {
+        box.innerHTML = `
+          <label>لاعبك في التحدي</label>
+          <input type="text" id="myPlayer" placeholder="اسم لاعبك">
+          <label>لاعب الخصم في التحدي</label>
+          <input type="text" id="oppPlayer" placeholder="اسم لاعب الخصم">`;
+      } else {
+        box.innerHTML = '';
+      }
+    }
+    renderActivationFields();
+
+    async function handleActivate() {
+      const chipType = document.getElementById('chip-type-select').value;
+      const gw = parseInt(document.getElementById('gw-input').value, 10);
+      const msgBox = document.getElementById('activate-msg');
+      msgBox.className = '';
+      msgBox.textContent = '';
+
+      const payload = { token: currentToken, chipType, gw };
+      if (chipType === 'double_player') {
+        payload.doubledPlayer = document.getElementById('doubledPlayer').value;
+        payload.zeroedPlayer = document.getElementById('zeroedPlayer').value;
+      }
+      if (chipType === 'one_v_one') {
+        payload.myPlayer = document.getElementById('myPlayer').value;
+        payload.oppPlayer = document.getElementById('oppPlayer').value;
+      }
+
+      const result = await khawasActivate(payload);
+      if (result.error) {
+        msgBox.className = 'khawas-error';
+        msgBox.textContent = result.error;
+        return;
+      }
+      msgBox.className = 'khawas-success';
+      msgBox.textContent = 'تم التفعيل بنجاح!';
+      loadStatus();
+    }
+  </script>
+</body>
+</html>

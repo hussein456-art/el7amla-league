@@ -87,3 +87,21 @@ tbody td { padding: 12px 10px; text-align: center; }
 .fixture-row { display: flex; align-items: center; justify-content: center; gap: 14px; padding: 6px 0; font-size: .9rem; }
 .fixture-team { min-width: 140px; text-align: center; font-weight: 700; }
 .fixture-vs { color: var(--text-muted); font-size: .75rem; }
+
+/* ── KHAWAS ── */
+.khawas-box { background: var(--bg-card); border: 1px solid var(--border); border-radius: 14px; padding: 22px; max-width: 420px; margin: 0 auto; }
+.khawas-box label { display: block; font-size: .85rem; color: var(--text-muted); margin: 12px 0 6px; }
+.khawas-box input, .khawas-box select {
+  width: 100%; padding: 10px 12px; border-radius: 8px; border: 1px solid var(--border);
+  background: var(--bg-primary); color: var(--text-primary); font-family: inherit; font-size: .9rem;
+}
+.khawas-btn {
+  width: 100%; margin-top: 16px; padding: 11px; border: none; border-radius: 8px;
+  background: var(--blue-accent); color: #fff; font-weight: 700; cursor: pointer; font-family: inherit;
+}
+.khawas-btn:hover { background: var(--blue-dark); }
+.khawas-error { color: #f87171; font-size: .85rem; margin-top: 10px; }
+.khawas-success { color: #4ade80; font-size: .85rem; margin-top: 10px; }
+.chip-row { display: flex; justify-content: space-between; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--border); }
+.chip-row:last-child { border-bottom: none; }
+.chip-used-up { color: var(--text-muted); }

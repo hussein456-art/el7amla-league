@@ -138,3 +138,35 @@ async function renderFixtures(containerId) {
     el.innerHTML = `<div class="state-box">⚠️ فشل تحميل البيانات</div>`;
   }
 }
+
+// ============================================
+// khawas.html — Worker API helpers
+// ============================================
+const KHAWAS_API = 'https://el7amla-khawas.bodyom456.workers.dev';
+
+async function khawasLogin(team, password) {
+  const res = await fetch(`${KHAWAS_API}/login`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ team, password }),
+  });
+  return res.json();
+}
+
+async function khawasStatus(token) {
+  const res = await fetch(`${KHAWAS_API}/status`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ token }),
+  });
+  return res.json();
+}
+
+async function khawasActivate(payload) {
+  const res = await fetch(`${KHAWAS_API}/activate`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload),
+  });
+  return res.json();
+}
