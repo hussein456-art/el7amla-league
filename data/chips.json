@@ -1,5 +1,10 @@
 {
-  "bonus3": [],
+  "bonus3": [
+    {
+      "team": "The Pharaohs",
+      "gw": 7
+    }
+  ],
   "double_player": [],
   "one_v_one": []
 }
