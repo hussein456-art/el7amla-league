@@ -1,0 +1,739 @@
+{
+  "fixtures": [
+    {
+      "gw": 1,
+      "matches": [
+        [
+          "Black Tech",
+          "Falcons"
+        ],
+        [
+          "The Pharaohs",
+          "Boys"
+        ],
+        [
+          "Royal Authority",
+          "The Masterminds"
+        ],
+        [
+          "الزرازير",
+          "الاوديسي"
+        ]
+      ]
+    },
+    {
+      "gw": 2,
+      "matches": [
+        [
+          "Black Tech",
+          "The Pharaohs"
+        ],
+        [
+          "Royal Authority",
+          "Falcons"
+        ],
+        [
+          "الزرازير",
+          "Boys"
+        ],
+        [
+          "الاوديسي",
+          "The Masterminds"
+        ]
+      ]
+    },
+    {
+      "gw": 3,
+      "matches": [
+        [
+          "Black Tech",
+          "Royal Authority"
+        ],
+        [
+          "الزرازير",
+          "The Pharaohs"
+        ],
+        [
+          "الاوديسي",
+          "Falcons"
+        ],
+        [
+          "The Masterminds",
+          "Boys"
+        ]
+      ]
+    },
+    {
+      "gw": 4,
+      "matches": [
+        [
+          "Black Tech",
+          "الزرازير"
+        ],
+        [
+          "الاوديسي",
+          "Royal Authority"
+        ],
+        [
+          "The Masterminds",
+          "The Pharaohs"
+        ],
+        [
+          "Boys",
+          "Falcons"
+        ]
+      ]
+    },
+    {
+      "gw": 5,
+      "matches": [
+        [
+          "Black Tech",
+          "الاوديسي"
+        ],
+        [
+          "The Masterminds",
+          "الزرازير"
+        ],
+        [
+          "Boys",
+          "Royal Authority"
+        ],
+        [
+          "Falcons",
+          "The Pharaohs"
+        ]
+      ]
+    },
+    {
+      "gw": 6,
+      "matches": [
+        [
+          "Black Tech",
+          "The Masterminds"
+        ],
+        [
+          "Boys",
+          "الاوديسي"
+        ],
+        [
+          "Falcons",
+          "الزرازير"
+        ],
+        [
+          "The Pharaohs",
+          "Royal Authority"
+        ]
+      ]
+    },
+    {
+      "gw": 7,
+      "matches": [
+        [
+          "Black Tech",
+          "Boys"
+        ],
+        [
+          "Falcons",
+          "The Masterminds"
+        ],
+        [
+          "The Pharaohs",
+          "الاوديسي"
+        ],
+        [
+          "Royal Authority",
+          "الزرازير"
+        ]
+      ]
+    },
+    {
+      "gw": 8,
+      "matches": [
+        [
+          "Falcons",
+          "Black Tech"
+        ],
+        [
+          "Boys",
+          "The Pharaohs"
+        ],
+        [
+          "The Masterminds",
+          "Royal Authority"
+        ],
+        [
+          "الاوديسي",
+          "الزرازير"
+        ]
+      ]
+    },
+    {
+      "gw": 9,
+      "matches": [
+        [
+          "The Pharaohs",
+          "Black Tech"
+        ],
+        [
+          "Falcons",
+          "Royal Authority"
+        ],
+        [
+          "Boys",
+          "الزرازير"
+        ],
+        [
+          "The Masterminds",
+          "الاوديسي"
+        ]
+      ]
+    },
+    {
+      "gw": 10,
+      "matches": [
+        [
+          "Royal Authority",
+          "Black Tech"
+        ],
+        [
+          "The Pharaohs",
+          "الزرازير"
+        ],
+        [
+          "Falcons",
+          "الاوديسي"
+        ],
+        [
+          "Boys",
+          "The Masterminds"
+        ]
+      ]
+    },
+    {
+      "gw": 11,
+      "matches": [
+        [
+          "الزرازير",
+          "Black Tech"
+        ],
+        [
+          "Royal Authority",
+          "الاوديسي"
+        ],
+        [
+          "The Pharaohs",
+          "The Masterminds"
+        ],
+        [
+          "Falcons",
+          "Boys"
+        ]
+      ]
+    },
+    {
+      "gw": 12,
+      "matches": [
+        [
+          "الاوديسي",
+          "Black Tech"
+        ],
+        [
+          "الزرازير",
+          "The Masterminds"
+        ],
+        [
+          "Royal Authority",
+          "Boys"
+        ],
+        [
+          "The Pharaohs",
+          "Falcons"
+        ]
+      ]
+    },
+    {
+      "gw": 13,
+      "matches": [
+        [
+          "The Masterminds",
+          "Black Tech"
+        ],
+        [
+          "الاوديسي",
+          "Boys"
+        ],
+        [
+          "الزرازير",
+          "Falcons"
+        ],
+        [
+          "Royal Authority",
+          "The Pharaohs"
+        ]
+      ]
+    },
+    {
+      "gw": 14,
+      "matches": [
+        [
+          "Boys",
+          "Black Tech"
+        ],
+        [
+          "The Masterminds",
+          "Falcons"
+        ],
+        [
+          "الاوديسي",
+          "The Pharaohs"
+        ],
+        [
+          "الزرازير",
+          "Royal Authority"
+        ]
+      ]
+    },
+    {
+      "gw": 15,
+      "matches": [
+        [
+          "Black Tech",
+          "Falcons"
+        ],
+        [
+          "The Pharaohs",
+          "Boys"
+        ],
+        [
+          "Royal Authority",
+          "The Masterminds"
+        ],
+        [
+          "الزرازير",
+          "الاوديسي"
+        ]
+      ]
+    },
+    {
+      "gw": 16,
+      "matches": [
+        [
+          "Black Tech",
+          "The Pharaohs"
+        ],
+        [
+          "Royal Authority",
+          "Falcons"
+        ],
+        [
+          "الزرازير",
+          "Boys"
+        ],
+        [
+          "الاوديسي",
+          "The Masterminds"
+        ]
+      ]
+    },
+    {
+      "gw": 17,
+      "matches": [
+        [
+          "Black Tech",
+          "Royal Authority"
+        ],
+        [
+          "الزرازير",
+          "The Pharaohs"
+        ],
+        [
+          "الاوديسي",
+          "Falcons"
+        ],
+        [
+          "The Masterminds",
+          "Boys"
+        ]
+      ]
+    },
+    {
+      "gw": 18,
+      "matches": [
+        [
+          "Black Tech",
+          "الزرازير"
+        ],
+        [
+          "الاوديسي",
+          "Royal Authority"
+        ],
+        [
+          "The Masterminds",
+          "The Pharaohs"
+        ],
+        [
+          "Boys",
+          "Falcons"
+        ]
+      ]
+    },
+    {
+      "gw": 19,
+      "matches": [
+        [
+          "Black Tech",
+          "الاوديسي"
+        ],
+        [
+          "The Masterminds",
+          "الزرازير"
+        ],
+        [
+          "Boys",
+          "Royal Authority"
+        ],
+        [
+          "Falcons",
+          "The Pharaohs"
+        ]
+      ]
+    },
+    {
+      "gw": 20,
+      "matches": [
+        [
+          "Black Tech",
+          "The Masterminds"
+        ],
+        [
+          "Boys",
+          "الاوديسي"
+        ],
+        [
+          "Falcons",
+          "الزرازير"
+        ],
+        [
+          "The Pharaohs",
+          "Royal Authority"
+        ]
+      ]
+    },
+    {
+      "gw": 21,
+      "matches": [
+        [
+          "Black Tech",
+          "Boys"
+        ],
+        [
+          "Falcons",
+          "The Masterminds"
+        ],
+        [
+          "The Pharaohs",
+          "الاوديسي"
+        ],
+        [
+          "Royal Authority",
+          "الزرازير"
+        ]
+      ]
+    },
+    {
+      "gw": 22,
+      "matches": [
+        [
+          "Falcons",
+          "Black Tech"
+        ],
+        [
+          "Boys",
+          "The Pharaohs"
+        ],
+        [
+          "The Masterminds",
+          "Royal Authority"
+        ],
+        [
+          "الاوديسي",
+          "الزرازير"
+        ]
+      ]
+    },
+    {
+      "gw": 23,
+      "matches": [
+        [
+          "The Pharaohs",
+          "Black Tech"
+        ],
+        [
+          "Falcons",
+          "Royal Authority"
+        ],
+        [
+          "Boys",
+          "الزرازير"
+        ],
+        [
+          "The Masterminds",
+          "الاوديسي"
+        ]
+      ]
+    },
+    {
+      "gw": 24,
+      "matches": [
+        [
+          "Royal Authority",
+          "Black Tech"
+        ],
+        [
+          "The Pharaohs",
+          "الزرازير"
+        ],
+        [
+          "Falcons",
+          "الاوديسي"
+        ],
+        [
+          "Boys",
+          "The Masterminds"
+        ]
+      ]
+    },
+    {
+      "gw": 25,
+      "matches": [
+        [
+          "الزرازير",
+          "Black Tech"
+        ],
+        [
+          "Royal Authority",
+          "الاوديسي"
+        ],
+        [
+          "The Pharaohs",
+          "The Masterminds"
+        ],
+        [
+          "Falcons",
+          "Boys"
+        ]
+      ]
+    },
+    {
+      "gw": 26,
+      "matches": [
+        [
+          "الاوديسي",
+          "Black Tech"
+        ],
+        [
+          "الزرازير",
+          "The Masterminds"
+        ],
+        [
+          "Royal Authority",
+          "Boys"
+        ],
+        [
+          "The Pharaohs",
+          "Falcons"
+        ]
+      ]
+    },
+    {
+      "gw": 27,
+      "matches": [
+        [
+          "The Masterminds",
+          "Black Tech"
+        ],
+        [
+          "الاوديسي",
+          "Boys"
+        ],
+        [
+          "الزرازير",
+          "Falcons"
+        ],
+        [
+          "Royal Authority",
+          "The Pharaohs"
+        ]
+      ]
+    },
+    {
+      "gw": 28,
+      "matches": [
+        [
+          "Boys",
+          "Black Tech"
+        ],
+        [
+          "The Masterminds",
+          "Falcons"
+        ],
+        [
+          "الاوديسي",
+          "The Pharaohs"
+        ],
+        [
+          "الزرازير",
+          "Royal Authority"
+        ]
+      ]
+    },
+    {
+      "gw": 29,
+      "matches": [
+        [
+          "Black Tech",
+          "Falcons"
+        ],
+        [
+          "The Pharaohs",
+          "Boys"
+        ],
+        [
+          "Royal Authority",
+          "The Masterminds"
+        ],
+        [
+          "الزرازير",
+          "الاوديسي"
+        ]
+      ]
+    },
+    {
+      "gw": 30,
+      "matches": [
+        [
+          "Black Tech",
+          "The Pharaohs"
+        ],
+        [
+          "Royal Authority",
+          "Falcons"
+        ],
+        [
+          "الزرازير",
+          "Boys"
+        ],
+        [
+          "الاوديسي",
+          "The Masterminds"
+        ]
+      ]
+    },
+    {
+      "gw": 31,
+      "matches": [
+        [
+          "Black Tech",
+          "Royal Authority"
+        ],
+        [
+          "الزرازير",
+          "The Pharaohs"
+        ],
+        [
+          "الاوديسي",
+          "Falcons"
+        ],
+        [
+          "The Masterminds",
+          "Boys"
+        ]
+      ]
+    },
+    {
+      "gw": 32,
+      "matches": [
+        [
+          "Black Tech",
+          "الزرازير"
+        ],
+        [
+          "الاوديسي",
+          "Royal Authority"
+        ],
+        [
+          "The Masterminds",
+          "The Pharaohs"
+        ],
+        [
+          "Boys",
+          "Falcons"
+        ]
+      ]
+    },
+    {
+      "gw": 33,
+      "matches": [
+        [
+          "Black Tech",
+          "الاوديسي"
+        ],
+        [
+          "The Masterminds",
+          "الزرازير"
+        ],
+        [
+          "Boys",
+          "Royal Authority"
+        ],
+        [
+          "Falcons",
+          "The Pharaohs"
+        ]
+      ]
+    },
+    {
+      "gw": 34,
+      "matches": [
+        [
+          "Black Tech",
+          "The Masterminds"
+        ],
+        [
+          "Boys",
+          "الاوديسي"
+        ],
+        [
+          "Falcons",
+          "الزرازير"
+        ],
+        [
+          "The Pharaohs",
+          "Royal Authority"
+        ]
+      ]
+    },
+    {
+      "gw": 35,
+      "matches": [
+        [
+          "Black Tech",
+          "Boys"
+        ],
+        [
+          "Falcons",
+          "The Masterminds"
+        ],
+        [
+          "The Pharaohs",
+          "الاوديسي"
+        ],
+        [
+          "Royal Authority",
+          "الزرازير"
+        ]
+      ]
+    }
+  ]
+}

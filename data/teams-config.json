@@ -1,0 +1,12 @@
+{
+  "teams": [
+    { "name": "Black Tech",      "color": "#a855f7", "emoji": "💻" },
+    { "name": "The Pharaohs",    "color": "#eab308", "emoji": "🏺" },
+    { "name": "Falcons",         "color": "#3b82f6", "emoji": "🦅" },
+    { "name": "Boys",            "color": "#f97316", "emoji": "⚽" },
+    { "name": "Royal Authority", "color": "#ef4444", "emoji": "👑" },
+    { "name": "The Masterminds", "color": "#06b6d4", "emoji": "🧠" },
+    { "name": "الزرازير",         "color": "#8b5cf6", "emoji": "🦇" },
+    { "name": "الاوديسي",         "color": "#10b981", "emoji": "🌌" }
+  ]
+}

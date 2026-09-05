@@ -1,0 +1,89 @@
+/* ============================================
+   El7amla League — Shared Stylesheet
+   Loaded by every page. Edit colors/fonts here
+   ONCE and every page updates together.
+   ============================================ */
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg-primary:   #0f172a;
+  --bg-card:      #1e293b;
+  --border:       #334155;
+  --text-primary: #f1f5f9;
+  --text-muted:   #94a3b8;
+  --blue-accent:  #3b82f6;
+  --blue-dark:    #1d4ed8;
+  --gold:         #fbbf24;
+  --nav-h:        68px;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Cairo', sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  min-height: 100vh;
+  direction: rtl;
+}
+
+/* ── NAV ── */
+.site-nav {
+  position: fixed; top: 0; left: 0; right: 0; height: var(--nav-h);
+  background: rgba(15,23,42,.96);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border);
+  z-index: 1000;
+  display: flex; align-items: center; padding: 0 20px;
+}
+.nav-inner { max-width: 1200px; margin: 0 auto; width: 100%; display: flex; align-items: center; }
+.nav-logo { display: flex; align-items: center; gap: 11px; text-decoration: none; margin-left: auto; }
+.logo-ar { font-weight: 900; font-size: 1.05rem; color: var(--text-primary); }
+.nav-links { display: flex; align-items: center; margin-right: auto; }
+.nav-links a {
+  color: var(--text-muted); text-decoration: none; font-size: .9rem; font-weight: 600;
+  padding: 8px 18px; border-bottom: 3px solid transparent; transition: .2s;
+  height: var(--nav-h); display: flex; align-items: center;
+}
+.nav-links a:hover, .nav-links a.active { color: var(--blue-accent); border-bottom-color: var(--blue-accent); }
+
+/* ── LAYOUT ── */
+.main-content { max-width: 1200px; margin: 0 auto; padding: calc(var(--nav-h) + 32px) 16px 60px; }
+
+/* ── TABLE ── */
+.table-wrap { background: var(--bg-card); border: 1px solid var(--border); border-radius: 16px; overflow: hidden; }
+table { width: 100%; border-collapse: collapse; font-size: .88rem; }
+thead tr { background: linear-gradient(90deg, var(--blue-dark), var(--blue-accent)); }
+thead th { padding: 13px 10px; text-align: center; font-weight: 700; font-size: .78rem; color: #e0eaff; }
+tbody tr { border-bottom: 1px solid rgba(51,65,85,.6); }
+tbody tr:last-child { border-bottom: none; }
+tbody td { padding: 12px 10px; text-align: center; }
+.pts-total { font-weight: 900; color: var(--blue-accent); }
+
+/* ── STATE ── */
+.state-box { text-align: center; padding: 40px 20px; color: var(--text-muted); }
+
+/* ── TEAMS GRID ── */
+.teams-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+}
+.team-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-right: 4px solid;
+  border-radius: 12px;
+  padding: 16px;
+}
+.team-card-header { font-weight: 900; font-size: 1.05rem; margin-bottom: 10px; }
+.team-card-players { list-style: none; color: var(--text-muted); font-size: .9rem; }
+.team-card-players li { padding: 4px 0; }
+
+/* ── FIXTURES ── */
+.gw-block { background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 14px 18px; margin-bottom: 14px; }
+.gw-title { font-weight: 900; color: var(--gold); margin-bottom: 10px; font-size: .95rem; }
+.fixture-row { display: flex; align-items: center; justify-content: center; gap: 14px; padding: 6px 0; font-size: .9rem; }
+.fixture-team { min-width: 140px; text-align: center; font-weight: 700; }
+.fixture-vs { color: var(--text-muted); font-size: .75rem; }

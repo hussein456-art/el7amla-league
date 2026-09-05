@@ -1,0 +1,86 @@
+{
+  "current_gw": 2,
+  "last_updated": "2026-09-05 02:36:22",
+  "teams": [
+    {
+      "name": "Black Tech",
+      "played": 2,
+      "won": 2,
+      "draw": 0,
+      "lost": 0,
+      "matchPts": 6,
+      "chipBonus": 0,
+      "total": 6
+    },
+    {
+      "name": "Royal Authority",
+      "played": 2,
+      "won": 2,
+      "draw": 0,
+      "lost": 0,
+      "matchPts": 6,
+      "chipBonus": 0,
+      "total": 6
+    },
+    {
+      "name": "الزرازير",
+      "played": 2,
+      "won": 2,
+      "draw": 0,
+      "lost": 0,
+      "matchPts": 6,
+      "chipBonus": 0,
+      "total": 6
+    },
+    {
+      "name": "The Pharaohs",
+      "played": 2,
+      "won": 1,
+      "draw": 0,
+      "lost": 1,
+      "matchPts": 3,
+      "chipBonus": 0,
+      "total": 3
+    },
+    {
+      "name": "الاوديسي",
+      "played": 2,
+      "won": 1,
+      "draw": 0,
+      "lost": 1,
+      "matchPts": 3,
+      "chipBonus": 0,
+      "total": 3
+    },
+    {
+      "name": "Falcons",
+      "played": 2,
+      "won": 0,
+      "draw": 0,
+      "lost": 2,
+      "matchPts": 0,
+      "chipBonus": 0,
+      "total": 0
+    },
+    {
+      "name": "The Masterminds",
+      "played": 2,
+      "won": 0,
+      "draw": 0,
+      "lost": 2,
+      "matchPts": 0,
+      "chipBonus": 0,
+      "total": 0
+    },
+    {
+      "name": "Boys",
+      "played": 2,
+      "won": 0,
+      "draw": 0,
+      "lost": 2,
+      "matchPts": 0,
+      "chipBonus": 0,
+      "total": 0
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "teams": {
+    "Black Tech": {
+      "players": [
+        {
+          "name": "Elfiky",
+          "entry_id": 43949
+        },
+        {
+          "name": "Saady",
+          "entry_id": 3492393
+        }
+      ]
+    },
+    "Falcons": {
+      "players": [
+        {
+          "name": "Nasser",
+          "entry_id": 1102089
+        },
+        {
+          "name": "Tawheed",
+          "entry_id": 4696525
+        }
+      ]
+    },
+    "The Pharaohs": {
+      "players": [
+        {
+          "name": "Hussein",
+          "entry_id": 1338459
+        },
+        {
+          "name": "Ahmed Nour",
+          "entry_id": 3915093
+        }
+      ]
+    },
+    "Royal Authority": {
+      "players": [
+        {
+          "name": "Omar",
+          "entry_id": 4638841
+        },
+        {
+          "name": "Mahmoud",
+          "entry_id": 4648250
+        }
+      ]
+    },
+    "الزرازير": {
+      "players": [
+        {
+          "name": "M.Yasser",
+          "entry_id": 92255
+        },
+        {
+          "name": "Abolmagd",
+          "entry_id": 1421188
+        }
+      ]
+    },
+    "الاوديسي": {
+      "players": [
+        {
+          "name": "Amgad",
+          "entry_id": 749755
+        },
+        {
+          "name": "Karim Yasser",
+          "entry_id": 778545
+        }
+      ]
+    },
+    "The Masterminds": {
+      "players": [
+        {
+          "name": "Body",
+          "entry_id": 1697319
+        },
+        {
+          "name": "Shika",
+          "entry_id": 9822516
+        }
+      ]
+    },
+    "Boys": {
+      "players": [
+        {
+          "name": "Ali",
+          "entry_id": 7999563
+        },
+        {
+          "name": "Magdy",
+          "entry_id": 7652885
+        }
+      ]
+    }
+  }
+}
