@@ -1,83 +1,83 @@
 {
-  "current_gw": 4,
-  "last_updated": "2026-09-21 13:55:55",
+  "current_gw": 5,
+  "last_updated": "2026-09-21 14:08:40",
   "teams": [
     {
       "name": "Royal Authority",
-      "played": 4,
-      "won": 4,
+      "played": 5,
+      "won": 5,
       "draw": 0,
       "lost": 0,
+      "matchPts": 15,
+      "chipBonus": 0,
+      "total": 15
+    },
+    {
+      "name": "The Pharaohs",
+      "played": 5,
+      "won": 4,
+      "draw": 0,
+      "lost": 1,
       "matchPts": 12,
       "chipBonus": 0,
       "total": 12
     },
     {
-      "name": "The Pharaohs",
-      "played": 4,
+      "name": "الزرازير",
+      "played": 5,
       "won": 3,
       "draw": 0,
-      "lost": 1,
+      "lost": 2,
       "matchPts": 9,
       "chipBonus": 0,
       "total": 9
     },
     {
-      "name": "الزرازير",
-      "played": 4,
+      "name": "الاوديسي",
+      "played": 5,
       "won": 3,
       "draw": 0,
-      "lost": 1,
+      "lost": 2,
       "matchPts": 9,
       "chipBonus": 0,
       "total": 9
     },
     {
       "name": "Black Tech",
-      "played": 4,
+      "played": 5,
       "won": 2,
       "draw": 0,
-      "lost": 2,
-      "matchPts": 6,
-      "chipBonus": 0,
-      "total": 6
-    },
-    {
-      "name": "الاوديسي",
-      "played": 4,
-      "won": 2,
-      "draw": 0,
-      "lost": 2,
+      "lost": 3,
       "matchPts": 6,
       "chipBonus": 0,
       "total": 6
     },
     {
       "name": "The Masterminds",
-      "played": 4,
-      "won": 1,
+      "played": 5,
+      "won": 2,
       "draw": 0,
       "lost": 3,
-      "matchPts": 3,
+      "matchPts": 6,
       "chipBonus": 0,
-      "total": 3
+      "total": 6
     },
     {
       "name": "Boys",
-      "played": 4,
+      "played": 5,
       "won": 1,
       "draw": 0,
-      "lost": 3,
+      "lost": 4,
       "matchPts": 3,
       "chipBonus": 0,
       "total": 3
     },
     {
       "name": "Falcons",
-      "played": 4,
+      "played": 5,
       "won": 0,
       "draw": 0,
-      "lost": 4,
+      "lost": 5,
       "matchPts": 0,
       "chipBonus": 0,
       "total": 0
