@@ -1,86 +1,86 @@
 {
-  "current_gw": 7,
-  "last_updated": "2026-10-26 10:36:08",
+  "current_gw": 8,
+  "last_updated": "2026-10-26 16:58:47",
   "teams": [
     {
-      "name": "The Pharaohs",
-      "played": 7,
-      "won": 5,
+      "name": "الاوديسي",
+      "played": 8,
+      "won": 6,
       "draw": 0,
       "lost": 2,
+      "matchPts": 18,
+      "chipBonus": 0,
+      "total": 18
+    },
+    {
+      "name": "The Pharaohs",
+      "played": 8,
+      "won": 5,
+      "draw": 0,
+      "lost": 3,
       "matchPts": 15,
       "chipBonus": 0,
       "total": 15
     },
     {
       "name": "Royal Authority",
-      "played": 7,
+      "played": 8,
       "won": 5,
       "draw": 0,
-      "lost": 2,
+      "lost": 3,
       "matchPts": 15,
       "chipBonus": 0,
       "total": 15
     },
     {
       "name": "الزرازير",
-      "played": 7,
+      "played": 8,
       "won": 5,
       "draw": 0,
-      "lost": 2,
-      "matchPts": 15,
-      "chipBonus": 0,
-      "total": 15
-    },
-    {
-      "name": "الاوديسي",
-      "played": 7,
-      "won": 5,
-      "draw": 0,
-      "lost": 2,
+      "lost": 3,
       "matchPts": 15,
       "chipBonus": 0,
       "total": 15
     },
     {
       "name": "The Masterminds",
-      "played": 7,
-      "won": 4,
+      "played": 8,
+      "won": 5,
       "draw": 0,
       "lost": 3,
-      "matchPts": 12,
+      "matchPts": 15,
       "chipBonus": 0,
-      "total": 12
-    },
-    {
-      "name": "Black Tech",
-      "played": 7,
-      "won": 2,
-      "draw": 0,
-      "lost": 5,
-      "matchPts": 6,
-      "chipBonus": 0,
-      "total": 6
+      "total": 15
     },
     {
       "name": "Boys",
-      "played": 7,
-      "won": 2,
+      "played": 8,
+      "won": 3,
       "draw": 0,
       "lost": 5,
+      "matchPts": 9,
+      "chipBonus": 0,
+      "total": 9
+    },
+    {
+      "name": "Black Tech",
+      "played": 8,
+      "won": 2,
+      "draw": 0,
+      "lost": 6,
       "matchPts": 6,
       "chipBonus": 0,
       "total": 6
     },
     {
       "name": "Falcons",
-      "played": 7,
-      "won": 0,
+      "played": 8,
+      "won": 1,
       "draw": 0,
       "lost": 7,
-      "matchPts": 0,
+      "matchPts": 3,
       "chipBonus": 0,
-      "total": 0
+      "total": 3
     }
   ]
 }
